@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "inshorts@^1.0.3",
+        "scope": null,
+        "escapedName": "inshorts",
+        "name": "inshorts",
+        "rawSpec": "^1.0.3",
+        "spec": ">=1.0.3 <2.0.0",
+        "type": "range"
+      },
+      "/Users/Gumber/projects/ritish"
+    ]
+  ],
+  "_from": "inshorts@>=1.0.3 <2.0.0",
+  "_id": "inshorts@1.0.3",
+  "_inCache": true,
+  "_location": "/inshorts",
+  "_nodeVersion": "4.2.6",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/inshorts-1.0.3.tgz_1471719440091_0.4847649331204593"
+  },
+  "_npmUser": {
+    "name": "ritishgumber",
+    "email": "ritishgumber@gmail.com"
+  },
+  "_npmVersion": "2.14.12",
+  "_phantomChildren": {
+    "core-util-is": "1.0.2",
+    "css-select": "1.2.0",
+    "dom-serializer": "0.1.0",
+    "domelementtype": "1.3.0",
+    "domhandler": "2.3.0",
+    "domutils": "1.5.1",
+    "entities": "1.1.1",
+    "inherits": "2.0.3",
+    "jsdom": "7.2.2",
+    "lodash": "4.17.4",
+    "string_decoder": "0.10.31"
+  },
+  "_requested": {
+    "raw": "inshorts@^1.0.3",
+    "scope": null,
+    "escapedName": "inshorts",
+    "name": "inshorts",
+    "rawSpec": "^1.0.3",
+    "spec": ">=1.0.3 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/inshorts/-/inshorts-1.0.3.tgz",
+  "_shasum": "a03c1609e9dc64d99eec8534ca1eb5775f00e84b",
+  "_shrinkwrap": null,
+  "_spec": "inshorts@^1.0.3",
+  "_where": "/Users/Gumber/projects/ritish",
+  "author": {
+    "name": "Ritish Gumber"
+  },
+  "bugs": {
+    "url": "https://github.com/ritishgumber/zomato/issues"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.74.0"
+  },
+  "description": "[![NPM](https://nodei.co/npm/inshorts.png?mini=true)](https://nodei.co/npm/inshorts/)",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "a03c1609e9dc64d99eec8534ca1eb5775f00e84b",
+    "tarball": "https://registry.npmjs.org/inshorts/-/inshorts-1.0.3.tgz"
+  },
+  "gitHead": "ac04ac7c8dddff4d9d51b9f1892aa710625a8187",
+  "homepage": "https://github.com/ritishgumber/zomato#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "ritishgumber",
+      "email": "ritishgumber@gmail.com"
+    }
+  ],
+  "name": "inshorts",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritishgumber/zomato.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}
