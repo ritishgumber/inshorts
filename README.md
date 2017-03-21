@@ -16,25 +16,25 @@ Require library
 var inshorts= require('inshorts').init();
 ```
 Function
-##Refer category names- 
+##Refer category names-
  -  //leave blank to get All News
  - national //Indian News
- - business 
+ - business
  - sports
  - world
  - politics
  - technology
- - startup 
+ - startup
  - entertainment
  - miscellaneous
  - hatke // out of the way
  - science
  - automobile
- 
+
 ```javascript
 inshorts.getNews('category_name',function(err,result){
 if(!err)
-console.log(body);
+console.log(result);
 else
 console.log(err);
 });
@@ -67,6 +67,6 @@ Response
 		"Trump is right Obama founded ISIS: Hezbollah leader  "],
 "id":"865296bf-759b-4ebd-acdb-2fc68d3ccbcb-1",
 "category":"startup"
-		
+
 }
 ```
