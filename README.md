@@ -43,7 +43,7 @@ console.log(err);
 ```javascript
 inshorts.more({category:'startup',id:'id obtained from getNews() function or previous call of this function.'},function(err,result){
 if(!err)
-console.log(body);
+console.log(result);
 else
 console.log(err);
 });
