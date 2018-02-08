@@ -31,8 +31,13 @@ Function
  - science
  - automobile
 
+Function
+##Refer language names-
+ - en // for english
+ - hi // for hindi
+ 
 ```javascript
-inshorts.getNews('category_name',function(err,result){
+inshorts.getNews({category: 'category_name', lang: 'language'},function(err,result){
 if(!err)
 console.log(result);
 else
@@ -41,7 +46,7 @@ console.log(err);
 ```
 
 ```javascript
-inshorts.more({category:'startup',id:'id obtained from getNews() function or previous call of this function.'},function(err,result){
+inshorts.more({category:'startup',id:'id obtained from getNews() function or previous call of this function.', lang: 'language like en or hi'},function(err,result){
 if(!err)
 console.log(result);
 else
