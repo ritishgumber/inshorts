@@ -11,7 +11,7 @@ var more = function() {
         };
         if (typeof cb === 'function') {
             request.post({
-                url: "https://www.inshorts.com/en/ajax/more_news",
+                url: 'https://www.inshorts.com/' + query.lang + '/ajax/more_news',
                 method: 'POST',
                 headers: {
                     'content-type': 'application/x-www-form-urlencoded'
@@ -101,10 +101,10 @@ var more = function() {
     }
 }
 var getNews = function() {
-    return function(name, cb) {
+    return function(query, cb) {
         if (typeof cb === 'function') {
             request.get({
-                url: 'https://www.inshorts.com/en/read/' + name,
+                url: 'https://www.inshorts.com/' + query.lang + '/read/' + query.category,
                 method: 'GET',
                 headers: {}
             }, function(err, response, body) {
@@ -184,7 +184,7 @@ var getNews = function() {
                                 headline: headline,
                                 read_more: read_more,
                                 id: id,
-                                category: name
+                                category: query.category
                             });
                         }
                     }
